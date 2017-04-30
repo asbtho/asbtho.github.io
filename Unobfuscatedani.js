@@ -2,7 +2,7 @@ window.onload = function(){
 	writebox = document.getElementById("write");
 	cursor = document.getElementById("cursor");
 	writebox.innerHTML += "root@thom.dir:~$ ";
-	siteText = "./getEmail|Contact32: MFPXI2DPNU4DSQDIN52G2YLJNQXGG33N=";
+	siteText = "./getEmail|Contact32: MFPXI2DPNU4DSQDIN52G2YLJNQXGG33N||=";
 	chars = siteText.split("");
 	var i = 0;
 	setTimeout(function(){ animation = setInterval(function(){
