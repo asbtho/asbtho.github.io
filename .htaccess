@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{QUERY_STRING} id=1
+RewriteRule ^youtube/index\.html$ /youtube/? [L,R=301]
