@@ -2,7 +2,7 @@ window.onload = function(){
 	writebox = document.getElementById("write");
 	cursor = document.getElementById("cursor");
 	writebox.innerHTML += "root@thom.dir:~$ ";
-	siteText = "./getEmail|Contact32: MFPXI2DPNU4DSQDIN52G2YLJNQXGG33N||=";
+	siteText = "./getEmail|Contact32: MFPXI2DPNU4DSQDIN52G2YLJNQXGG33N||=|?";
 	chars = siteText.split("");
 	var i = 0;
 	setTimeout(function(){ animation = setInterval(function(){
@@ -10,6 +10,7 @@ window.onload = function(){
 			case "|": writebox.innerHTML+="<br>root@thom.dir:~$ "; break;
 			//case "=": writebox.innerHTML+='<a href="sw/sw.html">Star Wars API fiddle</a>'; break; //removed for now
 			case "=": writebox.innerHTML+='<a href="youtube/">React App with Youtube API</a>'; break;
+			case "?": writebox.innerHTML+='<a href="weather/">React-Redux App with OpenWeatherMap API</a>'; break;
 			default: writebox.innerHTML+=chars[i];
 		}
 		i++;
