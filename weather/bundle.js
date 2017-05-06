@@ -26407,7 +26407,6 @@
 				_react2.default.createElement(_reactSparklines.SparklinesLine, { color: props.color, style: { fill: "none" } }),
 				_react2.default.createElement(_reactSparklines.SparklinesReferenceLine, { type: 'avg' })
 			),
-			console.log(props.data),
 			_react2.default.createElement(
 				'div',
 				null,
