@@ -1,1 +1,1 @@
-for domain thom.directory
+for domain ozzylan.no
