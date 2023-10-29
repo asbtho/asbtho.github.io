@@ -1,1 +1,1 @@
-for domain ozzylan.no
+for domain ozr.no
